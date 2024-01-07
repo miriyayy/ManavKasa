@@ -9,19 +9,19 @@ public class ManavKasa {
         double muzFiyatiKg = 0.95;
         double patlıcanFiyatiKg = 5.0;
 
-        System.out.println("Armut fiyatı ne kadar?:");
+        System.out.println("Armut kaç kilo?:");
         double armutKg= scanner.nextDouble();
 
-        System.out.println("Elma fiyatı ne kadar?:");
+        System.out.println("Elma kaç kilo?:");
         double elmaKg= scanner.nextDouble();
 
-        System.out.println(" Domates fiyatı ne kadar?:");
+        System.out.println("Domates kaç kilo?:");
          double domatesKg= scanner.nextDouble();
 
-        System.out.println("Muz fiyatı ne kadar?:");
+        System.out.println("Muz kaç kilo?:");
         double muzKg= scanner.nextDouble();
 
-        System.out.println("Patlıcan fiyatı ne kadar:?");
+        System.out.println("Patlıcan kaç kilo:?");
         double patlıcanKg= scanner.nextDouble();
 
         double toplamTutar= (armutFiyatiKg*armutKg)+ (elmaFiyatiKg*elmaKg)+(domatesFiyatiKg*domatesKg)+
